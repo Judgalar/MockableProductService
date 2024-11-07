@@ -1,0 +1,59 @@
+# Archivos de compilación de Visual Studio
+.vs/
+
+# Archivos de compilación de .NET
+bin/
+obj/
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+# NuGet de forma local
+.nuget/
+
+# Archivos de publicación y despliegue
+publish/
+out/
+
+# Archivos de configuración de usuario
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.sln.DotSettings
+
+# Archivos de Rider/JetBrains
+.idea/
+*.DotSettings.user
+
+# Archivos de depuración
+*.log
+*.tlog
+*.ide.*
+*.vspscc
+*.vssscc
+
+# Archivos de configuración de Git
+.git/
+
+# Archivos específicos de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Archivos de caché y temporales del sistema
+*.DS_Store
+Thumbs.db
+
+# Archivos de empaquetado
+*.zip
+*.rar
+*.tar.gz
+
+# Archivos específicos de .NET y MSBuild
+project.lock.json
+project.fragment.lock.json
+artifacts/
+GeneratedFiles/
+_ReSharper*
+/node_modules/
+test/TestResults/
